@@ -102,14 +102,29 @@ class reviwer(Mentor):
         return "Имя:" + self.name + "\nФамилия:" + self.surname
 
  
-best_student = Student('Ruoy', 'Eman', 'your_gender')
-best_student.courses_in_progress += ['Python']
- 
-cool_mentor = Mentor('Some', 'Buddy')
-cool_mentor.courses_attached += ['Python']
- 
-cool_mentor.rate_hw(best_student, 'Python', 10)
-cool_mentor.rate_hw(best_student, 'Python', 10)
-cool_mentor.rate_hw(best_student, 'Python', 10)
- 
-print(best_student.grades)
+HPotter = Student('Harry', 'Potter')
+HPotter.courses_in_progress += ['Python']
+HPotter.courses_in_progress += ['Git']
+HPotter.courses_in_progress += ['Java']
+HPotter.courses_in_progress += ['MatLab']
+HPotter.finished_courses += ["Введение в программирование"]
+
+RWeasley = Student('Ronald', 'Weasley')
+RWeasley.courses_in_progress += ['Python']
+RWeasley.courses_in_progress += ['Java']
+RWeasley.finished_courses += ["Введение в программирование"]
+RWeasley.courses_in_progress += ['Git']
+RWeasley.courses_in_progress += ['MatLab']
+
+SSnape = reviwer('Severus', 'Snape')
+SSnape.courses_attached += ['Python']
+SSnape.courses_attached += ['Hub']
+
+HSlughorn = reviwer('Horace' , 'Slughorn')
+HSlughorn.courses_attached += ['Java']
+
+MMcConnagal = lecturer('Minevra', 'McConnagal')
+MMcConnagal.courses_attached += ['Git']
+
+RLupin = lecturer('Remus', 'Lupin')
+RLupin.courses_attached += ['MatLab']
