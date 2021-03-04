@@ -151,6 +151,7 @@ SSnape.avg_grade(HPotter, 'Python')
 SSnape.avg_grade(RWeasley, 'Python')
 
 HSlughorn.avg_grade(RWeasley, 'Java')
+HSlughorn.avg_grade(HPotter, 'Java')
 
 HPotter.rate_mntr(MMcConnagal, 'Git', 10)
 HPotter.rate_mntr(RLupin, 'MatLab', 8)
@@ -164,3 +165,17 @@ RWeasley.avrg_rd()
 SSnape.avg_ttl_grds('Python')
 HSlughorn.avg_ttl_grds('Java')
 
+MMcConnagal.avrg_rd()
+RLupin.avrg_rd()
+SSnape.comp(HPotter,RWeasley, 'Python')
+HSlughorn.comp(HPotter, RWeasley, "Java")
+
+MMcConnagal.com(RLupin)
+
+
+print (HPotter)
+print (RWeasley)
+print(SSnape)
+print(HSlughorn)
+print(MMcConnagal)
+print(RLupin)
