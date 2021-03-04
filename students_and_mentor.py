@@ -128,3 +128,39 @@ MMcConnagal.courses_attached += ['Git']
 
 RLupin = lecturer('Remus', 'Lupin')
 RLupin.courses_attached += ['MatLab']
+
+
+
+SSnape.rate_hw(HPotter, 'Python', 10)
+SSnape.rate_hw(HPotter, 'Python', 7)
+SSnape.rate_hw(HPotter, 'Python', 1)
+
+SSnape.rate_hw(RWeasley, 'Python', 10)
+SSnape.rate_hw(RWeasley, 'Python', 33)
+SSnape.rate_hw(RWeasley, 'Python', 2)
+
+HSlughorn.rate_hw(RWeasley, 'Java', 6)
+HSlughorn.rate_hw(RWeasley, 'Java', 7)
+HSlughorn.rate_hw(RWeasley, 'Java', 5)
+
+HSlughorn.rate_hw(HPotter, 'Java', 1)
+HSlughorn.rate_hw(HPotter, 'Java', 20)
+HSlughorn.rate_hw(HPotter, 'Java', 6)
+
+SSnape.avg_grade(HPotter, 'Python')
+SSnape.avg_grade(RWeasley, 'Python')
+
+HSlughorn.avg_grade(RWeasley, 'Java')
+
+HPotter.rate_mntr(MMcConnagal, 'Git', 10)
+HPotter.rate_mntr(RLupin, 'MatLab', 8)
+
+RWeasley.rate_mntr(MMcConnagal, 'Git', 8)
+RWeasley.rate_mntr(RLupin, 'MatLab', 4)
+
+HPotter.avrg_rd()
+RWeasley.avrg_rd()
+
+SSnape.avg_ttl_grds('Python')
+HSlughorn.avg_ttl_grds('Java')
+
